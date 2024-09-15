@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",                   // ECMAScript version to compile to
+      "module": "commonjs",                  // Use Node.js module system
+      "declaration": true,                   // Generate declaration files (.d.ts)
+      "outDir": "./dist",                    // Output directory for compiled files
+      "strict": true,                        // Enable strict type-checking
+      "skipLibCheck": true,
+      "esModuleInterop": true                // Allows default imports from CommonJS modules
+    },
+    "include": ["src/**/*"],                 // Files to include
+    "exclude": ["node_modules", "dist"]      // Exclude node_modules and dist
+}

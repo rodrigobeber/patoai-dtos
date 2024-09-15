@@ -1,0 +1,21 @@
+{
+  "name": "@rodrigobeber/patoai-dtos",
+  "version": "1.0.0",
+  "description": "Data Transfer Objects for the PatoAI system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.61.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "typescript": "5.5"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ]
+}

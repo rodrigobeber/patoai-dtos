@@ -1,4 +1,4 @@
 export interface ReplyMessageDto {
-    messageId: string;
+    chatMessageId: string;
     content: string;
 }

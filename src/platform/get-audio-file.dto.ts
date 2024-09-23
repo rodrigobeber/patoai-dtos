@@ -1,4 +1,6 @@
+import { BotDto } from "../assistant/bot.dto";
+
 export interface GetAudioFileDto {
     id: string,
-    botKey: string
+    bot: BotDto
 }

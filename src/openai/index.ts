@@ -7,6 +7,7 @@ export * from './create-transcription.dto';
 export * from './get-active-run.dto';
 export * from './get-last-message.dto';
 export * from './get-run.dto';
+export * from './sync-assistant.dto';
 export * from './submit-tool-outputs.dto';
 
 // return intarfaces

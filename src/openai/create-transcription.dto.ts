@@ -1,7 +1,7 @@
-import { Uploadable } from 'openai/uploads';
+import { AudioFileDto } from '../platform';
 
 export interface CreateTranscriptionDto {
-  aiKey: string;
-  file: Uploadable;
-  language: string;
+    aiKey: string;
+    file: AudioFileDto;
+    language: string;
 }

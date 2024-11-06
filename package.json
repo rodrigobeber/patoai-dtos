@@ -1,6 +1,6 @@
 {
   "name": "@rodrigobeber/patoai-dtos",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Data Transfer Objects for the PatoAI system",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

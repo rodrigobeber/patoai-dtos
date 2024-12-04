@@ -3,6 +3,7 @@ export * from './create-run.dto';
 export * from './create-thread.dto';
 export * from './create-thread-message.dto';
 export * from './create-transcription.dto';
+export * from './delete-thread-message.dto';
 export * from './get-active-run.dto';
 export * from './get-last-message.dto';
 export * from './get-run.dto';

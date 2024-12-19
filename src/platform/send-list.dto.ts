@@ -1,4 +1,4 @@
-import { BotDto } from "../assistant/bot.dto";
+import { IntegrationDto } from "../chat/integration.dto";
 
 export interface SendListRowDto {
     title: string,
@@ -13,7 +13,7 @@ export interface SendListSectionDto {
 
 export interface SendListDto {
     userId: string,
-    bot: BotDto,
+    integration: IntegrationDto,
     title: string,
     description: string,
     buttonText: string,

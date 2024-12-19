@@ -1,7 +1,7 @@
 import { MessageInDto } from "./message-in.dto";
 
 export interface HandleMessageDto {
-    assistantCode: string;
+    crewCode: string;
     method: string;
     messageIn: MessageInDto;
 }

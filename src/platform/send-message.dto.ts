@@ -1,8 +1,8 @@
-import { BotDto } from "../assistant/bot.dto";
+import { IntegrationDto } from "../chat/integration.dto";
 
 export interface SendMessageDto {
     userId: string,
-    bot: BotDto,
+    integration: IntegrationDto,
     text: string,
     isQuoted: boolean,
     replyMessageId?: string,

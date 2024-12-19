@@ -1,11 +1,11 @@
-import { MessageLangDto } from "../assistant";
-import { BotDto } from "../assistant/bot.dto";
-import { ThreadDto } from "../assistant/thread.dto";
+import { MessageLangDto } from "../chat";
+import { IntegrationDto } from "../chat/integration.dto";
+import { ThreadDto } from "../chat/thread.dto";
 
 export interface RunDto {
+    idCrew: number;
     aiKey: string;
-    assistantId: string;
-    bot: BotDto;
+    integration: IntegrationDto;
     thread: ThreadDto;
     lang: MessageLangDto;
 }

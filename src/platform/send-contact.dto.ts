@@ -1,8 +1,8 @@
-import { BotDto } from "../assistant/bot.dto";
+import { IntegrationDto } from "../chat/integration.dto";
 
 export interface SendContactDto {
     userId: string,
-    bot: BotDto,
+    integration: IntegrationDto,
     fullName: string,
     wuid: string,
     organization?: string,

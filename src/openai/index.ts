@@ -1,4 +1,5 @@
 export * from './cancel-active-run.dto';
+export * from './completion.dto';
 export * from './create-run.dto';
 export * from './create-thread.dto';
 export * from './create-thread-message.dto';

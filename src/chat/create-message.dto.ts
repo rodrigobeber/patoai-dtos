@@ -4,4 +4,5 @@ export interface CreateMessageDto {
     chatMessageId: string;
     messageId: string;
     role: string;
+    idAgent: number;
 }

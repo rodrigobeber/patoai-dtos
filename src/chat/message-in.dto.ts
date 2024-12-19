@@ -16,5 +16,6 @@ export interface MessageInDto {
     chatMessageId: string;
     text: string;
     isNewChat: boolean,
+    idThread?: number,
     idAudio?: string;
 }

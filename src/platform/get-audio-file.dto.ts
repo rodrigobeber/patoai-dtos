@@ -1,6 +1,6 @@
-import { BotDto } from "../assistant/bot.dto";
+import { IntegrationDto } from "../chat/integration.dto";
 
 export interface GetAudioFileDto {
     id: string,
-    bot: BotDto
+    integration: IntegrationDto
 }
